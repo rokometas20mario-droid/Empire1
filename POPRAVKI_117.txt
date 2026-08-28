@@ -1,0 +1,11 @@
+KOSARA, ZIVALI IN STOLP - RAZLICICA 15
+
+- Delavec nima kosare, kadar je prazen ali opravlja delo.
+- Med nosenjem ima na ramenih novo polno kosaro z lesom, kamnom, zlatom ali hrano.
+- Kosara se premika skupaj z delavcem in ne ostane na mestu med animacijo.
+- Bocna hoja jelena, divjega prasica in pragoveda je na novo poravnana brez drsenja.
+- Zival pod krosnjo drevesa izgine iz glavnega pogleda, na mini mapi pa ostane vidna.
+- Stolp ima pri prvem nivoju enega, pri drugem dva in pri tretjem tri metalce sulic.
+- Metalci mirujejo s sulico v roki in ob prihodu sovraznika predvajajo met.
+- Sulice vidno letijo do cilja in povzrocijo skodo ob zadetku.
+- Doseg stolpa se po nivojih poveca na 200, 250 in 300.

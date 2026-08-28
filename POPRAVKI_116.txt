@@ -1,0 +1,9 @@
+KOSARA IN TRI ZIVALI - RAZLICICA 14
+
+- Delavec ima vedno prazgodovinsko pleteno kosaro na ramenih.
+- Ko nic ne nosi, je kosara prazna.
+- Les, kamen, zlato ali hrana se prikazejo v isti kosari med vracanjem.
+- Dodan je animiran jelen: 40 HP, 60 hrane, hiter in bezi pred delavcem.
+- Dodan je animiran divji prasic: 80 HP, 90 hrane in se lahko brani.
+- Dodano je animirano pragovedo: 150 HP, 160 hrane, pocasno in najmocnejse.
+- Vse zivali imajo hojo v stirih smereh in poravnane parklje na tleh.

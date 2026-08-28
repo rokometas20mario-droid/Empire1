@@ -1,0 +1,9 @@
+RAZLICICA 34 - ZAPRTI STOLP V TREH NIVOJIH
+
+- Nivo 1 stolpa je vrnjen na originalno zaprto izvedbo s streho in strelnimi odprtinami.
+- Nivoja 2 in 3 sta izdelana iz iste zaprte konstrukcije; zgornji prostor se nikoli ne odpre.
+- Stolp ima samo smeri JUG in SEVER, tako kot druge navadne stavbe.
+- Obe smeri sta fizicno obrnjeni, ne le zrcaljeni.
+- Vseh sest slik je poravnanih na isto talno tocko in enotno platno 204 x 344.
+- Ikona stolpa v gradbenem meniju zdaj prikazuje zaprti stolp.
+- Casovna nadgradnja, streljanje, statistike in shranjevanje ostanejo nespremenjeni.

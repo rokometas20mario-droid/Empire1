@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://baaevg7d0ua7u"]
+
+[ext_resource type="Script" uid="uid://8d44hwcbcnbg" path="res://resource_node.gd" id="1_y0u8l"]
+[ext_resource type="Texture2D" path="res://sprite_hrana.png" id="2_scoo0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qgyl5"]
+radius = 68.0
+
+[node name="Hrana" type="Area2D" unique_id=405726415 groups=["trees", "viri"]]
+script = ExtResource("1_y0u8l")
+resource_type = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=967358907]
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("2_scoo0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1035970571]
+shape = SubResource("CircleShape2D_qgyl5")

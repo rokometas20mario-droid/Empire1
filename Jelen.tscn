@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://zival.gd" id="1_deer"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_deer"]
+radius = 14.0
+
+[node name="Jelen" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 5
+script = ExtResource("1_deer")
+zival_ime = "Jelen"
+max_hp = 30
+damage = 0
+hrana_ob_smrti = 100
+speed = 90.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -14.0
+offset_top = -12.0
+offset_right = 14.0
+offset_bottom = 12.0
+color = Color(0.55, 0.4, 0.25, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_deer")

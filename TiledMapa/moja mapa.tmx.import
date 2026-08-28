@@ -1,0 +1,23 @@
+[remap]
+
+importer="YATI"
+type="PackedScene"
+uid="uid://b3pd6s14bcicx"
+path="res://.godot/imported/moja mapa.tmx-abad19289473b21faba9a94e4b21be74.tscn"
+
+[deps]
+
+source_file="res://TiledMapa/moja mapa.tmx"
+dest_files=["res://.godot/imported/moja mapa.tmx-abad19289473b21faba9a94e4b21be74.tscn"]
+
+[params]
+
+use_default_filter=false
+add_class_as_metadata=false
+add_id_as_metadata=false
+no_alternative_tiles=false
+map_wangset_to_terrain=false
+custom_data_prefix="data_"
+tiled_project_file=""
+post_processor=""
+save_tileset_to=""

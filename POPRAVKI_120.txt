@@ -1,0 +1,6 @@
+POPRAVEK GLAVNE BAZE IN VOJASNICE
+
+- Glavno bazo je zdaj mogoce izbrati s klikom kjerkoli na njeni vidni sliki.
+- Gumb za nadgradnjo prikaze naslednji nivo ter potrebno kolicino lesa in kamna.
+- Po uspesni nadgradnji se prikaze jasno obvestilo.
+- Nadgradnja na nivo 2 pravilno odklene postavitev vojasnice.

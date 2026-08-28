@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="res://sprite_gora.png" id="1_gora_img"]
+
+[node name="Gora" type="StaticBody2D"]
+collision_layer = 1
+collision_mask = 0
+
+[node name="Vizual" type="Sprite2D" parent="."]
+position = Vector2(9, 40)
+texture = ExtResource("1_gora_img")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, -472, 96, -2, 318, 490, 138)

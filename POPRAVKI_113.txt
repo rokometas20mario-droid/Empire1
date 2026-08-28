@@ -1,0 +1,11 @@
+POPRAVKI DELAVCA - NOVA BOCNA HOJA IN POLOZAJ PRI BAZI
+
+- Hoja gor/dol in mirovanje ostajata nespremenjena.
+- Dodana je nova namenska prosojna grafika za bocno hojo.
+- Bocni cikel izmenjuje dolg korak in prehodni korak z dvignjeno peto.
+- Hoja levo je natancno zrcaljena hoja desno, zato sta smeri enaki.
+- Ritem bocne hoje je enak preverjeni hoji gor/dol.
+- Nov delavec se pojavi priblizno 225 px pred bazo, ne vec cez stavbo.
+- Tudi zacetni delavec je prestavljen pred glavno bazo.
+- Preverjeno v Godotu 4.7.2: animacije, polja, shranjevanje, obzidje,
+  vrata in stresni preizkus 300 zidov so brez napak.

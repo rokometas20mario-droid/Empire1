@@ -1,0 +1,22 @@
+POPRAVKI OBZIDJA – RAZLIČICA 110 (RAČUNALNIK)
+
+OBZIDJE
+- Klikni gumb Obzidje.
+- Z levim gumbom miške pritisni na začetno mesto, drži in povleci.
+- Zeleni predogled pokaže segmente, ki bodo postavljeni.
+- Spusti levi gumb miške, da postaviš celotno linijo.
+- Za vogal začni naslednji vlek na končnem segmentu obstoječega zidu.
+
+VRATA
+- Najprej zgradi obzidje.
+- Klikni gumb Vrata.
+- Klikni neposredno na segment obzidja.
+- Izbrani segment se zamenja z vrati na isti poziciji in v isti smeri.
+
+STOLP
+- Klikni gumb Stolp.
+- Klikni blizu konca segmenta ali vogala obzidja.
+- Stolp se samodejno pripne na najbližjo priklopno točko.
+
+Ta različica spreminja samo upravljanje z miško. Upravljanje obzidja na telefonu
+še ni predelano.

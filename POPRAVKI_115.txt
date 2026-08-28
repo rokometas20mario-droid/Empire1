@@ -1,0 +1,8 @@
+POPRAVKI DELAVCA - RAZLICICA 13
+
+- Zacetni delavec je postavljen bolj desno in naprej, jasno izven glavne baze.
+- Enak varen odmik uporablja vsak novo izdelani delavec.
+- Stara popacena animacija nosenja se ne uporablja vec.
+- Pri nosenju lesa, kamna, zlata ali hrane delavec uporablja isto pravilno hojo
+  kot brez tovora v vseh stirih smereh.
+- Surovina med hojo ostane vidna kot locen prikaz na delavcu.

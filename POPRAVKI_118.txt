@@ -1,0 +1,13 @@
+ZIVALI, METALCI IN SULICAR - RAZLICICA 16
+
+- Surovine in kosara ostanejo nespremenjene.
+- Jelen, divji prasic in pragovedo imajo na novo izdelano bocno hojo.
+- Trup zivali med bocno hojo ne drsi in ne poskakuje gor ter dol.
+- Noge zivali uporabljajo stiri razlicne, poravnane korake.
+- Metalec na stolpu je na novo narisan v manjsem in naravnem RTS merilu.
+- Metalec stoji znotraj ploscadi za sprednjo ograjo, ne cez stolp.
+- Prvi, drugi in tretji nivo stolpa imajo naravno razporejenega enega, dva in tri metalce.
+- Animacija meta in leteca sulica ostajata povezani z dejanskim zadetkom.
+- Osnovnega barvnega kvadrata vojaka je zamenjal pravi prazgodovinski sulicar.
+- Sulicar ima mirovanje, hojo in napad s sunkom sulice v stirih smereh.
+- Sulicar uporablja obstojeco navigacijo, izbiro, populacijo, proizvodnjo in shranjevanje.

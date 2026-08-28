@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://polje.gd" id="1_polje"]
+[ext_resource type="Texture2D" path="res://sprite_polje.png" id="2_polje"]
+
+[node name="Polje" type="Node2D"]
+script = ExtResource("1_polje")
+max_hp = 80
+tip_zgradbe = "polje"
+cas_gradnje = 15.0
+potrebuje_gradnjo = false
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_polje")

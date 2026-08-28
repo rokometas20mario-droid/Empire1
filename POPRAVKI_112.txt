@@ -1,0 +1,10 @@
+POPRAVKI DELAVCA - MIROVANJE IN BOCNA HOJA
+
+- Mirovanje ima za vsako smer en sam naraven stojeci okvir.
+- Delavec na mestu ne drsi vec z desne proti levi in ne preskakuje nazaj.
+- Bocna hoja izmenjuje dva najbolj razlicna koraka enakomerno.
+- Hitrost korakov je usklajena z dejansko hitrostjo premikanja enote.
+- Bocni okvirji so poravnani, zato trup med hojo ne niha levo/desno.
+- Hoja proti severu in jugu ostaja vizualno nespremenjena.
+- Preverjeno v Godotu 4.7.2: animacije, polja, shranjevanje, obzidje,
+  vrata in stresni preizkus 300 zidov so brez napak.

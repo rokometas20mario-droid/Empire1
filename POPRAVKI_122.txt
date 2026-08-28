@@ -1,0 +1,19 @@
+RAZLICICA 32 - SLIKOVNI GUMBI IN CAKALNE VRSTE
+
+- Delavec, stavbe, polje, vojaki in poglavar imajo slikovne gumbe brez imen.
+- Ime in pogoj za uporabo sta se vedno vidna kot opis gumba.
+- Glavna stavba in vojasnica sprejmeta do 10 narocil.
+- Vec narocenih enot se izdeluje zaporedno, eno za drugo.
+- Stevilka na ikoni pokaze skupno stevilo narocenih enot iste vrste.
+- Vrstica pod gumbi pokaze celoten vrstni red izdelave.
+- Zlato polnilo se dviga od spodaj navzgor in pokaze napredek aktivne enote.
+- Cakalne vrste in trenutni napredek se ohranijo pri shranjevanju in nalaganju.
+- Enota se pojavi pri pravi vojasnici, tudi ce bi bilo vojasnic pozneje vec.
+
+POGLAVAR
+
+- Bocna hoja uporablja nov stirifazni list z dejanskim izmenicnim korakom.
+- Lik ostane enako velik, stopala pa so poravnana s skupno talno crto.
+- Leva smer uporablja zrcaljen isti profil, zato se silhueta med smerema ne menja.
+
+Testna mapa ni bila spremenjena.

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://otok.gd" id="1_otok01"]
+[ext_resource type="Texture2D" path="res://TiledMapa/otok.png" id="2_otok02"]
+
+[node name="Otok" type="Node2D"]
+script = ExtResource("1_otok01")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_otok02")

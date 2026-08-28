@@ -1,0 +1,27 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://zival.gd" id="1_boar"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_boar"]
+radius = 16.0
+
+[node name="Merjasec" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 5
+script = ExtResource("1_boar")
+zival_ime = "Merjasec"
+max_hp = 60
+damage = 8
+attack_range = 35.0
+hrana_ob_smrti = 150
+speed = 70.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -16.0
+offset_top = -12.0
+offset_right = 16.0
+offset_bottom = 12.0
+color = Color(0.35, 0.22, 0.15, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_boar")

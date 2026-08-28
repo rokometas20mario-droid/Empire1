@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://kmet_polja.gd" id="1_kmet"]
+
+[node name="KmetPolja" type="CharacterBody2D"]
+z_index = 12
+script = ExtResource("1_kmet")
+
+[node name="Senca" type="Polygon2D" parent="."]
+position = Vector2(0, 8)
+color = Color(0, 0, 0, 0.28)
+polygon = PackedVector2Array(-18, 0, -14, -5, 0, -7, 14, -5, 18, 0, 14, 5, 0, 7, -14, 5)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Napis" type="Label" parent="."]
+offset_left = -46.0
+offset_top = -112.0
+offset_right = 46.0
+offset_bottom = -88.0
+theme_override_colors/font_color = Color(1, 0.88, 0.28, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 14
+text = "Kmet"
+horizontal_alignment = 1

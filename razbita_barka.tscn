@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://razbita_barka.gd" id="1_rbark01"]
+[ext_resource type="Texture2D" path="res://TiledMapa/razbita_barka.png" id="2_rbark02"]
+
+[node name="RazbitaBarka" type="Node2D"]
+script = ExtResource("1_rbark01")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_rbark02")

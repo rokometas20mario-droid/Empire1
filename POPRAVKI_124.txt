@@ -1,0 +1,9 @@
+POPRAVEK 124 - MINI MAPA IN MEGLA VOJNE
+
+- Mini mapa vedno pokaže temno izometrično obliko celotnega zemljevida.
+- Trenutno vidno območje je svetlo, že raziskano območje zatemnjeno, neraziskano skoraj črno.
+- Razkriti viri ostanejo označeni; premični sovražniki in živali so vidni samo v trenutnem vidnem polju.
+- Razkrite sovražne stavbe ostanejo na zadnji znani lokaciji.
+- Tvoje stavbe, delavci in vojaki imajo večje, bolj kontrastne oznake.
+- Mini mapa je postavljena nad ostale elemente uporabniškega vmesnika in je ne morejo prekriti.
+- Dodan je vidni rob izometrične mape ter beli okvir trenutnega pogleda kamere.
