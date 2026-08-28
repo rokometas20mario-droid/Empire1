@@ -1,0 +1,30 @@
+POPRAVKI OBZIDJA – RAZLIČICA 111 (RAČUNALNIK)
+
+GLAVNI POPRAVEK 111
+- Miškin pritisk, vlečenje in spust obzidja se zdaj berejo neposredno, zato
+  jih drugi elementi scene ne morejo več prestreči.
+- Ob izbiri obzidja ali vrat se prekliče morebiten star način postavljanja,
+  ki je prej lahko prestregel klik in povzročil, da se ni zgodilo nič.
+- Gumbi Zavrti in Prekliči ostanejo uporabni med postavljanjem.
+
+OBZIDJE
+- Klikni gumb Obzidje.
+- Z levim gumbom miške pritisni na začetno mesto, drži in povleci.
+- Zeleni predogled pokaže segmente, ki bodo postavljeni.
+- Spusti levi gumb miške, da postaviš celotno linijo.
+- Za vogal začni naslednji vlek na končnem segmentu obstoječega zidu.
+- Za hitro testiranje pritisni P, da dobiš testne surovine.
+
+VRATA
+- Najprej zgradi obzidje.
+- Klikni gumb Vrata.
+- Klikni neposredno na segment obzidja.
+- Izbrani segment se zamenja z vrati na isti poziciji in v isti smeri.
+
+STOLP
+- Klikni gumb Stolp.
+- Klikni blizu konca segmenta ali vogala obzidja.
+- Stolp se samodejno pripne na najbližjo priklopno točko.
+
+Ta različica spreminja samo upravljanje z miško. Upravljanje obzidja na telefonu
+še ni predelano.

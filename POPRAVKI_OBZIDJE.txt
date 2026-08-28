@@ -1,0 +1,87 @@
+POPRAVLJENO OBZIDJE – GODOT 4.7.2
+=================================
+
+Kaj je novo
+------------
+- Novo leseno obzidje in nova vrata s prosojnim ozadjem.
+- Prava izometrična poravnava 2 : 1; sosednji zidovi nimajo vrzeli.
+- Med gradnjo obzidja ni več vidne mreže velikih kvadratov. Prikazani so
+  samo pravi polprosojni deli zidu in tanka črta med krajiščema.
+- Vrata so dolga natanko dva zidna segmenta.
+- Vlečenje z miško ali enim prstom postavi cel niz zidov (podobno kot
+  Clash of Clans).
+- Kratek klik/tap še vedno postavi en segment oziroma pokaže možnosti
+  nadaljevanja obstoječega zidu.
+- Stolp se zaskoči neposredno na krajišče zidu ali vrat.
+- Drevesna krošnja ne blokira več gradnje. Ko prekrije stavbo, zid ali
+  enoto, se samo prekriti del krošnje mehko in ovalno prosoji. Drevo v
+  sredini učinka ostane 38 % vidno, rob pa se naravno zlije s polno krošnjo;
+  ni več ostro odrezanega ali popolnoma izginulega kosa.
+- Enak lokalni učinek je pripravljen tudi za druge vire, če bi se zaradi
+  stare shranjene igre prekrivali z objektom.
+- Kamen, zlato in grm hrane še vedno preprečijo pravo prekrivanje.
+- Na vodi ni mogoče postaviti nobene stavbe, polja, obzidja, vrat ali stolpa.
+  Preverjen je celoten talni odtis, zato objekt ne more stati niti delno v
+  vodi. Pravilo upošteva tudi manjše zalive znotraj zunanjega roba otoka.
+- Predogled postavitve upošteva pravi odmik slike od tal.
+- Končni stebri sosednjih segmentov so natančno prekriti; ni več dvojnih
+  stebrov, zaradi katerih je en zid izgledal višje.
+- Pri odpiranju vrat se odpreta samo sredinski krili. Celotna slika vrat se
+  ne krči, ne bledi in se ne obrača več.
+- Vrata enote zaznajo z večje razdalje. Izbrana vrata imajo tudi gumb
+  »Odpri vrata/Zapri vrata« za zanesljiv ročni nadzor.
+- Navigacija vrat ne obravnava več kot polno steno. Delavec in vojak oba
+  uporabljata pot skozi sredinski prehod ter se ne zaletavata v rob obzidja.
+- Klik/tap kjerkoli na vidni sliki stavbe, zidu, vrat ali stolpa objekt
+  izbere; nato se prikaže rdeči gumb »ZRUŠI IZBRANO«.
+- Drevesa se zaradi zgradbe ne izbrišejo niti v stari shranjeni igri.
+- Navigacijska mreža se pri nizu zidov posodobi samo enkrat po koncu, zato
+  ni več enosekundnega premora po vsakem segmentu.
+- Težka posodobitev navigacije zdaj teče v ozadju. Mere scen so predpomnjene,
+  bližnji viri pa se iščejo po prostorskih območjih namesto po celotni mapi.
+- Vsako novo polje samodejno dobi svojega namenskega kmeta. Ta dela samo na
+  svojem polju, ni ga mogoče izbrati ali poslati po druge surovine in ne
+  porablja navadne populacije.
+- Kmet vidno hodi po vrstah in kaže preostali čas. Ob žetvi igralec dobi
+  50 hrane, polje se spremeni nazaj v prazno njivo in takoj začne nov cikel.
+  Ko koruza ponovno zraste, jo isti kmet znova požanje; polje ne izgine.
+- Napredek žetve se ohrani pri shranjevanju in nalaganju igre. Če polje
+  porušiš, izgine tudi njegov kmet in mesto za polje se sprosti.
+- Modro Godot ikono delavca je zamenjal pravi prazgodovinski delavec. Ima
+  ločene animacije za hojo v štiri smeri, nabiranje z orodjem, gradnjo in
+  popravila s kladivom ter nošenje košare.
+- Med vračanjem je v košari prikazan tudi pravi tip tovora: les, kamen,
+  zlato ali hrana. Vsi delavci uporabljajo skupne animacijske okvirje, zato
+  ustvarjanje več enot ne podvaja velikih tekstur in ne povzroča zatikanja.
+- Namenski kmet ima enak prazgodovinski videz. Po vrsti najprej hodi, ob
+  njenem koncu pa se za kratek čas ustavi in vidno okopava z motiko.
+- Delavec ob nastanku ne stoji več v zamrznjenem koraku. Dodana je ločena
+  naravna mirujoča poza z obema nogama na tleh in rahlim dihanjem.
+- Okvirji hoje so pravilno izrezani brez odrezanih delov sosednje vrstice,
+  predvajajo se počasneje in razločneje, vmesni korak pa telo rahlo dvigne.
+  Stalna mehka senca ostane na tleh, zato delavec in kmet ne delujeta, kot
+  da lebdijo.
+- Gradbišče ohranja izvorno razmerje stranic. Predvsem pri visokem stolpu
+  se slika med gradnjo ne raztegne več po višini in ni več popačena.
+
+Uporaba
+-------
+1. V Godotu 4.7.2 odpri datoteko project.godot.
+2. Izberi Obzidje ali Vrata.
+3. Pritisni in vleci v želeni diagonalni smeri. Nevidna poravnava sama
+   sestavi raven niz; na zaslonu vidiš samo dejanske zidne kose.
+4. Za vogal začni vleči iz konca obstoječega segmenta.
+5. Stolp približaj koncu zidu/vrat; sam se bo poravnal na skupno točko.
+6. Za vrata tapni že postavljena vrata in uporabi »Odpri vrata«; enako se
+   samodejno odprejo, ko se jim približa tvoja enota.
+7. Postavi polje ob kmetiji. Njegov kmet začne samodejno delati; po vsaki
+   žetvi se njiva izprazni in začne ponovno rasti brez nove postavitve.
+
+Opomba
+------
+Stari Empire1.apk ni priložen, ker ne vsebuje teh popravkov. Po preizkusu
+projekta izvozi nov APK iz Godota.
+
+Trenutna mapa namenoma ostaja testna mapa za preverjanje sistemov in
+animacij. Njeno končno oblikovanje in pripadajoče vsebine pridejo na vrsto
+šele na koncu razvoja, kot je dogovorjeno.

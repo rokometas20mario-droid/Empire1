@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://poveljnik.gd" id="1_pov"]
+[ext_resource type="Texture2D" path="res://light_circle.png" id="2_light"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_pov"]
+radius = 11.0
+
+[node name="Poglavar" type="CharacterBody2D"]
+script = ExtResource("1_pov")
+collision_layer = 4
+collision_mask = 5
+enota_ime = "Poglavar"
+max_hp = 140
+damage = 16
+attack_range = 42.0
+speed = 120.0
+populacija_cena = 3
+tip_animacije = "poglavar"
+aura_range = 99999.0
+aura_damage_bonus = 10
+
+[node name="VisionLight" type="PointLight2D" parent="."]
+texture = ExtResource("2_light")
+texture_scale = 1.5
+energy = 1.2
+
+[node name="Senca" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-15, 2, -10, -3, 10, -3, 15, 2, 10, 6, -10, 6)
+color = Color(0, 0, 0, 0.32)
+z_index = -1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Oznaka" type="Polygon2D" parent="."]
+visible = false
+polygon = PackedVector2Array(-18, 0, 0, -10, 18, 0, 0, 10)
+color = Color(1, 0.75, 0.1, 0.5)
+z_index = -2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_pov")

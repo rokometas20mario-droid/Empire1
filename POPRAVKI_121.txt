@@ -1,0 +1,29 @@
+POPRAVEK PREMIKANJA VOJSKE
+
+- Sulicar in sekiras med mirovanjem in hojo ostaneta enako velika.
+- Stopala so pri vseh smereh poravnana s tlemi in senco.
+- Odstranjeno je navidezno lebdenje med hojo.
+- Ritem korakov je usklajen s hitrostjo premikanja.
+- Senca je mehkejsa in ostane nepremicno na tleh.
+
+DODATNI POPRAVEK
+- Sulicarjeva bocna hoja uporablja jasne izmenicne korake in zrcaljen isti profil.
+- Sekiras miruje v cisti naravni pozi iz hodnega lista.
+- Odstranjeni so poskodovani sekirasevi okvirji in hoja uporablja cist ritem.
+
+MRTVE ZIVALI IN HRANA
+- Ubitih zivali ne zamenja vec grm z jagodami.
+- Mrtvo telo ostane vidno na tleh kot vir hrane.
+- Delavec lahko iz telesa pobira hrano in jo nosi v bazo.
+- Ko je vsa hrana pobrana, telo izgine.
+Različica 23
+- Suličarjeva bočna hoja uporablja čist osemfazni profil brez drsenja.
+- Sekiraš ima sedemfazno hojo v vseh smereh in viden prenos teže.
+- Klik in napad na velike živali upoštevata vidno telo ter njegov bojni polmer.
+- Jelen, divji prašič in pragovedo po smrti dobijo pravo ležeče telo; delavec iz njega pobira hrano.
+Različica 24
+- Hoja suličarja in sekiraša je sinhronizirana z dejansko prehojeno razdaljo, zato stopala ne drsijo.
+- Suličarjev bočni list je poravnan po skupni talni in korenski točki.
+- Delavec lovi z namensko štirismerno animacijo sunka s sulico, ne več s krampom.
+- Lov upošteva rob telesa živali; po smrti delavec takoj začne pobirati hrano.
+- Vojak po smrti živali takoj prekine napad, spusti tarčo in obstane.

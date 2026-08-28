@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://b1marhbq7c7hw"]
+
+[ext_resource type="Script" path="res://zgradba.gd" id="1_zgr"]
+[ext_resource type="Texture2D" path="res://sprite_drvarnica_jug.png" id="2_drvsprite"]
+[ext_resource type="Texture2D" path="res://sprite_drvarnica_sever.png" id="3_drvsever"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kek77"]
+custom_solver_bias = 0.379
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ovira_drv"]
+radius = 55.0
+
+[node name="Drvarnica" type="Area2D" unique_id=2047248194]
+script = ExtResource("1_zgr")
+max_hp = 150
+tip_zgradbe = "drvarnica"
+cas_gradnje = 15.0
+tekstura_jug = ExtResource("2_drvsprite")
+tekstura_sever = ExtResource("3_drvsever")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2024943076]
+position = Vector2(20, 20)
+texture = ExtResource("2_drvsprite")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1580400498 groups=["oddajne_tocke"]]
+position = Vector2(19, 20)
+shape = SubResource("RectangleShape2D_kek77")
+
+[node name="Ovira" type="StaticBody2D" parent="."]
+collision_layer = 1
+collision_mask = 0
+
+[node name="OviraShape" type="CollisionShape2D" parent="Ovira"]
+position = Vector2(19, 20)
+shape = SubResource("CircleShape2D_ovira_drv")

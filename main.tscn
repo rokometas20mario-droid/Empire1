@@ -1,0 +1,770 @@
+[gd_scene format=3 uid="uid://d12rhx5xk50gg"]
+
+[ext_resource type="Script" uid="uid://mythup266mjp" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://dy3p641hhe6en" path="res://delavec.tscn" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://dvg8ys0580lb0" path="res://hisa.tscn" id="3_5vw27"]
+[ext_resource type="PackedScene" uid="uid://c4uj2fgnoctsd" path="res://tree.tscn" id="3_h2yge"]
+[ext_resource type="PackedScene" uid="uid://baaevg7d0ua7u" path="res://hrana.tscn" id="4_7mycd"]
+[ext_resource type="Script" uid="uid://b5mo5l2t64ktx" path="res://selection_box.gd" id="4_kek77"]
+[ext_resource type="PackedScene" uid="uid://3dudegsft7mb" path="res://kamen.tscn" id="5_272bh"]
+[ext_resource type="PackedScene" uid="uid://dkwitior4w2wp" path="res://zlato.tscn" id="6_5vw27"]
+[ext_resource type="PackedScene" uid="uid://b1marhbq7c7hw" path="res://Drvarnica.tscn" id="8_kek77"]
+[ext_resource type="PackedScene" path="res://Kamnolom.tscn" id="9_kamno"]
+[ext_resource type="PackedScene" path="res://Rudnik.tscn" id="10_rudnik"]
+[ext_resource type="PackedScene" path="res://Kmetija.tscn" id="11_kmet"]
+[ext_resource type="PackedScene" path="res://Polje.tscn" id="12_polje"]
+[ext_resource type="PackedScene" path="res://Vojasnica.tscn" id="13_voj"]
+[ext_resource type="PackedScene" path="res://Bojevnik.tscn" id="14_boj"]
+[ext_resource type="PackedScene" path="res://Kopjenik.tscn" id="15_kop"]
+[ext_resource type="PackedScene" path="res://TeskaEnota.tscn" id="16_tes"]
+[ext_resource type="PackedScene" path="res://Lutka.tscn" id="17_lut"]
+[ext_resource type="Script" uid="uid://daa2h4w80a4ac" path="res://zgradba.gd" id="18_zgr"]
+[ext_resource type="PackedScene" path="res://Obzidje.tscn" id="19_ozd"]
+[ext_resource type="PackedScene" path="res://Stolp.tscn" id="20_stp"]
+[ext_resource type="PackedScene" path="res://Poveljnik.tscn" id="21_pov"]
+[ext_resource type="Script" uid="uid://d18reevkrtcxj" path="res://ai_controller.gd" id="22_ai"]
+[ext_resource type="Script" uid="uid://cofuhhp6lnho7" path="res://minimap.gd" id="24_mini"]
+[ext_resource type="PackedScene" path="res://Vrata.tscn" id="25_vrt"]
+[ext_resource type="Texture2D" uid="uid://d2r81nybe8pw8" path="res://sprite_trava_iso.png" id="29_trava_iso"]
+[ext_resource type="Texture2D" uid="uid://cp7qxrbhjx1qp" path="res://sprite_pot_iso.png" id="30_pot"]
+[ext_resource type="PackedScene" path="res://Gora.tscn" id="31_gora"]
+[ext_resource type="Texture2D" path="res://assets/nadgradnje/glavna_nivo1.png" id="32_glavna"]
+[ext_resource type="PackedScene" path="res://TiledMapa/prava mapa.tmx" id="33_nova_mapa"]
+[ext_resource type="Script" path="res://postavitev_overlay.gd" id="34_overlay"]
+[ext_resource type="Texture2D" path="res://assets/nadgradnje/glavna_nivo2.png" id="35_glavna_n2"]
+[ext_resource type="Texture2D" path="res://assets/nadgradnje/glavna_nivo3.png" id="36_glavna_n3"]
+[ext_resource type="Script" path="res://fog_of_war.gd" id="37_fog"]
+
+
+
+[sub_resource type="CircleShape2D" id="StavbaOviraShape"]
+radius = 90.0
+
+[node name="Main" type="Node2D" unique_id=896808067]
+y_sort_enabled = true
+script = ExtResource("1_0xm2m")
+delavec_scene = ExtResource("2_h2yge")
+hisa_scene = ExtResource("3_5vw27")
+drvarnica_scene = ExtResource("8_kek77")
+kamnolom_scene = ExtResource("9_kamno")
+rudnik_scene = ExtResource("10_rudnik")
+kmetija_scene = ExtResource("11_kmet")
+polje_scene = ExtResource("12_polje")
+vojasnica_scene = ExtResource("13_voj")
+bojevnik_scene = ExtResource("14_boj")
+kopjenik_scene = ExtResource("15_kop")
+teska_enota_scene = ExtResource("16_tes")
+lutka_scene = ExtResource("17_lut")
+obzidje_scene = ExtResource("19_ozd")
+vrata_scene = ExtResource("25_vrt")
+stolp_scene = ExtResource("20_stp")
+poveljnik_scene = ExtResource("21_pov")
+
+
+[node name="NovaMapa" parent="." instance=ExtResource("33_nova_mapa")]
+[node name="SelectionBox" type="Node2D" parent="." unique_id=567989001 groups=["oddajne_tocke"]]
+z_index = 100
+script = ExtResource("4_kek77")
+
+[node name="FogModulate" type="CanvasModulate" parent="." unique_id=1921637662]
+
+[node name="MainCamera" type="Camera2D" parent="." unique_id=245852926]
+position = Vector2(-5583.75, 3192.625)
+zoom = Vector2(1, 1)
+limit_left = -6500
+limit_top = -500
+limit_right = 6500
+limit_bottom = 6600
+
+[node name="delavec" parent="." unique_id=1201951761 instance=ExtResource("2_h2yge")]
+position = Vector2(-5363.75, 3382.625)
+
+[node name="GlavnaHisa" type="Sprite2D" parent="." unique_id=1631723013 groups=["glavna_hisa"]]
+visible = false
+position = Vector2(-5583.75, 3192.625)
+scale = Vector2(1.6, 1.6)
+texture = ExtResource("32_glavna")
+offset = Vector2(0, -12)
+script = ExtResource("18_zgr")
+max_hp = 500
+potrebuje_gradnjo = false
+tekstura_jug = ExtResource("32_glavna")
+tekstura_nivo2_jug = ExtResource("35_glavna_n2")
+tekstura_nivo3_jug = ExtResource("36_glavna_n3")
+
+[node name="Ovira" type="StaticBody2D" parent="GlavnaHisa"]
+collision_layer = 1
+collision_mask = 0
+
+[node name="OviraShape" type="CollisionShape2D" parent="GlavnaHisa/Ovira"]
+shape = SubResource("StavbaOviraShape")
+
+[node name="AIBaza" type="Sprite2D" parent="." unique_id=737259725 groups=["ai_baza"]]
+visible = false
+modulate = Color(1, 0.4, 0.4, 1)
+position = Vector2(2218.75, 1912.875)
+scale = Vector2(1.6, 1.6)
+texture = ExtResource("32_glavna")
+offset = Vector2(0, -12)
+flip_h = true
+script = ExtResource("18_zgr")
+max_hp = 500
+je_ai = true
+potrebuje_gradnjo = false
+tekstura_jug = ExtResource("32_glavna")
+
+[node name="Ovira" type="StaticBody2D" parent="AIBaza"]
+collision_layer = 1
+collision_mask = 0
+
+[node name="OviraShape" type="CollisionShape2D" parent="AIBaza/Ovira"]
+shape = SubResource("StavbaOviraShape")
+
+[node name="AIController" type="Node2D" parent="." unique_id=2015005130]
+script = ExtResource("22_ai")
+delavec_scene = ExtResource("2_h2yge")
+vojasnica_scene = ExtResource("13_voj")
+bojevnik_scene = ExtResource("14_boj")
+
+[node name="FogOfWar" type="Node2D" parent="."]
+z_index = 3000
+z_as_relative = false
+script = ExtResource("37_fog")
+
+[node name="PostavitevOverlay" type="Node2D" parent="."]
+z_index = 4096
+z_as_relative = false
+script = ExtResource("34_overlay")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1470393392]
+
+[node name="LesLabel" type="Label" parent="CanvasLayer" unique_id=1224925736]
+offset_left = 28.0
+offset_top = 12.0
+offset_right = 338.0
+offset_bottom = 55.0
+mouse_filter = 0
+text = "Les: 0 | Kamen: 0 | Zlato: 0 | Hrana: 0"
+
+[node name="DebugLabel" type="Label" parent="CanvasLayer" unique_id=1002611654]
+offset_left = 28.0
+offset_top = 60.0
+offset_right = 1400.0
+offset_bottom = 140.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Debug: klikni nekam"
+autowrap_mode = 2
+
+[node name="HoverLabel" type="Label" parent="CanvasLayer" unique_id=215418704]
+visible = false
+offset_left = 28.0
+offset_top = 145.0
+offset_right = 500.0
+offset_bottom = 180.0
+theme_override_colors/font_color = Color(1, 0.4, 0.4, 1)
+theme_override_font_sizes/font_size = 22
+
+[node name="Minimap" type="Control" parent="CanvasLayer" unique_id=1665110168]
+z_index = 100
+layout_mode = 3
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -190.0
+offset_right = -20.0
+offset_bottom = -10.0
+grow_horizontal = 0
+grow_vertical = 0
+mouse_filter = 2
+script = ExtResource("24_mini")
+
+[node name="MultiSelectLabel" type="Label" parent="CanvasLayer" unique_id=1245023185]
+visible = false
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -220.0
+offset_right = 200.0
+offset_bottom = -180.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 26
+horizontal_alignment = 1
+
+[node name="SmerPredogled" type="TextureRect" parent="CanvasLayer"]
+visible = false
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -65.0
+offset_top = -390.0
+offset_right = 65.0
+offset_bottom = -275.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ZavrtiButton" type="Button" parent="CanvasLayer"]
+visible = false
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -90.0
+offset_top = -270.0
+offset_right = 90.0
+offset_bottom = -225.0
+custom_minimum_size = Vector2(0, 0)
+theme_override_font_sizes/font_size = 18
+text = "⟳ Obrni smer"
+
+[node name="PrekliciButton" type="Button" parent="CanvasLayer"]
+visible = false
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -90.0
+offset_top = -220.0
+offset_right = 90.0
+offset_bottom = -175.0
+custom_minimum_size = Vector2(0, 0)
+theme_override_font_sizes/font_size = 18
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "✕ Prekliči"
+
+[node name="ObvestiloLabel" type="Label" parent="CanvasLayer"]
+visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -250.0
+offset_top = 140.0
+offset_right = 250.0
+offset_bottom = 190.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 22
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="GameOverLabel" type="Label" parent="CanvasLayer" unique_id=1258598753]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -70.0
+offset_right = 400.0
+offset_bottom = 70.0
+theme_override_colors/font_color = Color(1, 0.85, 0.1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 90
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ButtonPause" type="Button" parent="CanvasLayer" unique_id=1300910029]
+process_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -55.0
+offset_top = 8.0
+offset_right = -10.0
+offset_bottom = 48.0
+theme_override_font_sizes/font_size = 22
+text = "−"
+
+[node name="PauseMenu" type="Panel" parent="CanvasLayer" unique_id=1419426391]
+process_mode = 3
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -190.0
+offset_right = 250.0
+offset_bottom = 190.0
+
+[node name="Naslov" type="Label" parent="CanvasLayer/PauseMenu" unique_id=1796115453]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 480.0
+offset_bottom = 70.0
+theme_override_font_sizes/font_size = 36
+text = "PAVZA"
+horizontal_alignment = 1
+
+[node name="ButtonNadaljuj" type="Button" parent="CanvasLayer/PauseMenu" unique_id=1949842867]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 110.0
+offset_right = 440.0
+offset_bottom = 170.0
+theme_override_font_sizes/font_size = 24
+text = "Nadaljuj"
+
+[node name="ButtonShrani" type="Button" parent="CanvasLayer/PauseMenu" unique_id=117500660]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 190.0
+offset_right = 440.0
+offset_bottom = 250.0
+theme_override_font_sizes/font_size = 24
+text = "Shrani igro"
+
+[node name="ButtonIzhod" type="Button" parent="CanvasLayer/PauseMenu" unique_id=91003543]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 270.0
+offset_right = 440.0
+offset_bottom = 330.0
+theme_override_font_sizes/font_size = 24
+text = "Izhod iz igre"
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=2074130281]
+visible = false
+custom_minimum_size = Vector2(3000, 3000)
+offset_left = -816.0
+offset_top = -1162.0
+offset_right = 2184.0
+offset_bottom = 1838.0
+mouse_filter = 2
+color = Color(0, 1, 0, 1)
+
+[node name="PanelDelavec" type="Control" parent="CanvasLayer" unique_id=30863477]
+visible = false
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -170.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="ButtonDrvarnica" type="Button" parent="CanvasLayer/PanelDelavec" unique_id=1570703871]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 82.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonKamnolom" type="Button" parent="CanvasLayer/PanelDelavec" unique_id=1061063577]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 10.0
+offset_right = 164.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonRudnik" type="Button" parent="CanvasLayer/PanelDelavec" unique_id=378752608]
+layout_mode = 0
+offset_left = 174.0
+offset_top = 10.0
+offset_right = 246.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonKmetija" type="Button" parent="CanvasLayer/PanelDelavec" unique_id=496296569]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 10.0
+offset_right = 328.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonVojasnica" type="Button" parent="CanvasLayer/PanelDelavec" unique_id=2131465316]
+layout_mode = 0
+offset_left = 338.0
+offset_top = 10.0
+offset_right = 410.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonObzidje" type="Button" parent="CanvasLayer/PanelDelavec" unique_id=58058448]
+layout_mode = 0
+offset_left = 420.0
+offset_top = 10.0
+offset_right = 492.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonVrata" type="Button" parent="CanvasLayer/PanelDelavec" unique_id=1670119407]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 10.0
+offset_right = 656.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonStolp" type="Button" parent="CanvasLayer/PanelDelavec" unique_id=437184712]
+layout_mode = 0
+offset_left = 502.0
+offset_top = 10.0
+offset_right = 574.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="PanelVojasnica" type="Control" parent="CanvasLayer" unique_id=737100085]
+visible = false
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -170.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="ButtonBojevnik" type="Button" parent="CanvasLayer/PanelVojasnica" unique_id=1528841766]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 82.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonKopjenik" type="Button" parent="CanvasLayer/PanelVojasnica" unique_id=753812106]
+layout_mode = 0
+offset_left = 92.0
+offset_top = 10.0
+offset_right = 164.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonTeska" type="Button" parent="CanvasLayer/PanelVojasnica" unique_id=796135334]
+layout_mode = 0
+offset_left = 174.0
+offset_top = 10.0
+offset_right = 246.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonNadgradiVojasnico" type="Button" parent="CanvasLayer/PanelVojasnica" unique_id=1011743130]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 10.0
+offset_right = 350.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonRallyVoj" type="Button" parent="CanvasLayer/PanelVojasnica" unique_id=574319083]
+layout_mode = 0
+offset_left = 370.0
+offset_top = 10.0
+offset_right = 440.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="PanelGlavnaHisa" type="Control" parent="CanvasLayer" unique_id=1657800295]
+visible = false
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -170.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="ButtonDelavec" type="Button" parent="CanvasLayer/PanelGlavnaHisa" unique_id=2088382367]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 82.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonHisa" type="Button" parent="CanvasLayer/PanelGlavnaHisa" unique_id=2133789239]
+modulate = Color(1, 0, 0, 1)
+layout_mode = 0
+offset_left = 92.0
+offset_top = 10.0
+offset_right = 164.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonPoveljnik" type="Button" parent="CanvasLayer/PanelGlavnaHisa" unique_id=1241550562]
+layout_mode = 0
+offset_left = 174.0
+offset_top = 10.0
+offset_right = 246.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonNadgradiGlavno" type="Button" parent="CanvasLayer/PanelGlavnaHisa" unique_id=1049840466]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 10.0
+offset_right = 350.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonRallyGlavna" type="Button" parent="CanvasLayer/PanelGlavnaHisa" unique_id=336062560]
+layout_mode = 0
+offset_left = 370.0
+offset_top = 10.0
+offset_right = 440.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="PanelObzidje" type="Control" parent="CanvasLayer" unique_id=1411295319]
+visible = false
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -170.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="ButtonNadgradiObzidje" type="Button" parent="CanvasLayer/PanelObzidje" unique_id=1679832412]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 80.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonRazsiriObzidje" type="Button" parent="CanvasLayer/PanelObzidje"]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 10.0
+offset_right = 190.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = "+ Razširi"
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonOdpriVrata" type="Button" parent="CanvasLayer/PanelObzidje"]
+visible = false
+layout_mode = 0
+offset_left = 200.0
+offset_top = 10.0
+offset_right = 310.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = "Odpri vrata"
+autowrap_mode = 2
+clip_text = true
+
+[node name="PanelKmetija" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -170.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="ButtonPostaviPolje" type="Button" parent="CanvasLayer/PanelKmetija"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 100.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="PanelStolp" type="Control" parent="CanvasLayer" unique_id=1929916789]
+visible = false
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -170.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="ButtonNadgradiStolp" type="Button" parent="CanvasLayer/PanelStolp" unique_id=131005502]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 80.0
+offset_bottom = 90.0
+theme_override_font_sizes/font_size = 13
+text = ""
+autowrap_mode = 2
+clip_text = true
+
+[node name="PanelZrusi" type="Control" parent="CanvasLayer"]
+visible = false
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -170.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+
+[node name="ButtonZrusi" type="Button" parent="CanvasLayer/PanelZrusi"]
+layout_mode = 0
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -350.0
+offset_top = 10.0
+offset_right = -210.0
+offset_bottom = 90.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 15
+theme_override_colors/font_color = Color(1, 0.4, 0.4, 1)
+text = "🗑 ZRUŠI IZBRANO"
+autowrap_mode = 2
+clip_text = true
+
+[node name="ButtonLutka" type="Button" parent="CanvasLayer" unique_id=1464507158]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -220.0
+offset_top = 372.0
+offset_right = -120.0
+offset_bottom = 422.0
+text = "Test tarča"
+
+[node name="ButtonTestSurovine" type="Button" parent="CanvasLayer" unique_id=586863303]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -220.0
+offset_top = 164.0
+offset_right = -120.0
+offset_bottom = 214.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+text = "TEST +surovine"
+
+[node name="ButtonAIPavza" type="Button" parent="CanvasLayer" unique_id=773663463]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -220.0
+offset_top = 216.0
+offset_right = -120.0
+offset_bottom = 266.0
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+text = "AI pavza"
+
+[connection signal="pressed" from="CanvasLayer/ZavrtiButton" to="." method="_on_zavrti_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PrekliciButton" to="." method="_on_preklici_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/ButtonPause" to="." method="_on_pause_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenu/ButtonNadaljuj" to="." method="_on_nadaljuj_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PauseMenu/ButtonShrani" to="." method="shrani_igro"]
+[connection signal="pressed" from="CanvasLayer/PauseMenu/ButtonIzhod" to="." method="_on_izhod_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelDelavec/ButtonDrvarnica" to="." method="_on_drvarnica_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelDelavec/ButtonKamnolom" to="." method="_on_kamnolom_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelDelavec/ButtonRudnik" to="." method="_on_rudnik_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelDelavec/ButtonKmetija" to="." method="_on_kmetija_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelDelavec/ButtonVojasnica" to="." method="_on_vojasnica_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelDelavec/ButtonObzidje" to="." method="_on_obzidje_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelDelavec/ButtonVrata" to="." method="_on_vrata_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelDelavec/ButtonStolp" to="." method="_on_stolp_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelVojasnica/ButtonBojevnik" to="." method="_on_bojevnik_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelVojasnica/ButtonKopjenik" to="." method="_on_kopjenik_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelVojasnica/ButtonTeska" to="." method="_on_teska_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelVojasnica/ButtonNadgradiVojasnico" to="." method="_on_nadgradi_vojasnico_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelVojasnica/ButtonRallyVoj" to="." method="_on_rally_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelGlavnaHisa/ButtonDelavec" to="." method="_on_worker_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelGlavnaHisa/ButtonPoveljnik" to="." method="_on_poveljnik_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelGlavnaHisa/ButtonNadgradiGlavno" to="." method="_on_nadgradi_glavno_stavbo_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelGlavnaHisa/ButtonRallyGlavna" to="." method="_on_rally_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelObzidje/ButtonNadgradiObzidje" to="." method="_on_nadgradi_obzidje_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelObzidje/ButtonRazsiriObzidje" to="." method="_on_razsiri_obzidje_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelObzidje/ButtonOdpriVrata" to="." method="_on_odpri_vrata_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelKmetija/ButtonPostaviPolje" to="." method="_on_polje_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelStolp/ButtonNadgradiStolp" to="." method="_on_nadgradi_stolp_pressed"]
+[connection signal="pressed" from="CanvasLayer/PanelZrusi/ButtonZrusi" to="." method="_on_zrusi_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/ButtonLutka" to="." method="_on_lutka_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/ButtonTestSurovine" to="." method="_dodaj_test_surovine"]
+[connection signal="pressed" from="CanvasLayer/ButtonAIPavza" to="." method="_on_ai_pavza_button_pressed"]

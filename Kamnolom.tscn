@@ -1,0 +1,35 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://zgradba.gd" id="1_zgr"]
+[ext_resource type="Texture2D" path="res://sprite_kamnolom_jug.png" id="2_kamsprite"]
+[ext_resource type="Texture2D" path="res://sprite_kamnolom_sever.png" id="3_kamsever"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kam01"]
+custom_solver_bias = 0.379
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ovira_kam"]
+radius = 55.0
+
+[node name="Kamnolom" type="Area2D"]
+script = ExtResource("1_zgr")
+max_hp = 150
+tip_zgradbe = "kamnolom"
+cas_gradnje = 15.0
+tekstura_jug = ExtResource("2_kamsprite")
+tekstura_sever = ExtResource("3_kamsever")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(20, 20)
+texture = ExtResource("2_kamsprite")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["oddajne_tocke"]]
+position = Vector2(19, 20)
+shape = SubResource("RectangleShape2D_kam01")
+
+[node name="Ovira" type="StaticBody2D" parent="."]
+collision_layer = 1
+collision_mask = 0
+
+[node name="OviraShape" type="CollisionShape2D" parent="Ovira"]
+position = Vector2(19, 20)
+shape = SubResource("CircleShape2D_ovira_kam")

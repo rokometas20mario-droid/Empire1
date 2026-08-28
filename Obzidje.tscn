@@ -1,0 +1,30 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://zgradba.gd" id="1_zgr"]
+[ext_resource type="Texture2D" path="res://sprite_obzidje_jug_v3.png" id="2_ozdsprite"]
+[ext_resource type="Texture2D" path="res://sprite_obzidje_sever_v3.png" id="3_ozdsever"]
+[ext_resource type="Texture2D" path="res://sprite_obzidje_vzhod_v3.png" id="4_ozdvzhod"]
+[ext_resource type="Texture2D" path="res://sprite_obzidje_zahod_v3.png" id="5_ozdzahod"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ozd"]
+size = Vector2(143, 22)
+
+[node name="Obzidje" type="StaticBody2D"]
+script = ExtResource("1_zgr")
+collision_layer = 1
+collision_mask = 0
+max_hp = 100
+tip_zgradbe = "obzidje"
+potrebuje_gradnjo = false
+cas_gradnje = 8.0
+tekstura_jug = ExtResource("2_ozdsprite")
+tekstura_sever = ExtResource("3_ozdsever")
+tekstura_vzhod = ExtResource("4_ozdvzhod")
+tekstura_zahod = ExtResource("5_ozdzahod")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -73)
+texture = ExtResource("2_ozdsprite")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ozd")

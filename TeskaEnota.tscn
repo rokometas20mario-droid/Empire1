@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://enota.gd" id="1_tes"]
+[ext_resource type="Texture2D" path="res://light_circle.png" id="2_light"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tes"]
+radius = 13.0
+
+[node name="Kijac" type="CharacterBody2D"]
+script = ExtResource("1_tes")
+collision_layer = 4
+collision_mask = 5
+enota_ime = "Kijač"
+max_hp = 120
+damage = 18
+attack_range = 42.0
+speed = 108.0
+populacija_cena = 5
+tip_animacije = "kijac"
+
+[node name="VisionLight" type="PointLight2D" parent="."]
+texture = ExtResource("2_light")
+texture_scale = 1.2
+energy = 1.2
+
+[node name="Senca" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-15, 2, -10, -3, 10, -3, 15, 2, 10, 6, -10, 6)
+color = Color(0, 0, 0, 0.32)
+z_index = -1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="Oznaka" type="Polygon2D" parent="."]
+visible = false
+polygon = PackedVector2Array(-18, 0, 0, -10, 18, 0, 0, 10)
+color = Color(0.2, 1, 0.2, 0.45)
+z_index = -2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_tes")

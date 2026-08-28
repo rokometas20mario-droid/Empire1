@@ -1,0 +1,720 @@
+[gd_scene format=3 uid="uid://fqinkfq081um"]
+
+[ext_resource type="PackedScene" uid="uid://cheum36nk1r16" path="res://TiledMapa/2.tmx" id="1_espd4"]
+[ext_resource type="Texture2D" uid="uid://rjfjl7ihnn0e" path="res://TiledMapa/drevo.png" id="2_kkxi1"]
+
+[node name="2" unique_id=1256296911 instance=ExtResource("1_espd4")]
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_09" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="0" unique_id=828105269]
+position = Vector2(6480, 2787)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_10" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="1" unique_id=494387309]
+position = Vector2(7639.0005, 1662)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_11" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="2" unique_id=1409045556]
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_12" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="3" unique_id=460612575]
+position = Vector2(7409, 1550)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_13" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="4" unique_id=507152847]
+position = Vector2(6667.0005, 2286)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_14" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="5" unique_id=1381756034]
+position = Vector2(5571, 1524)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_15" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="6" unique_id=1910832827]
+position = Vector2(7075, 1885)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_16" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="7" unique_id=957379831]
+position = Vector2(6148, 1509.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_17" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="8" unique_id=559846654]
+position = Vector2(6836, 976)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_18" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="9" unique_id=790819374]
+position = Vector2(6864.0005, 3060.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_19" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="10" unique_id=687965943]
+position = Vector2(4822, 3958)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_20" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="11" unique_id=849617511]
+position = Vector2(9454, 3357)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_21" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="12" unique_id=1003662412]
+position = Vector2(6356, 3165)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_22" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="13" unique_id=508752678]
+position = Vector2(7792.0005, 2547.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_23" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="14" unique_id=728936791]
+position = Vector2(4584, 3608)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_24" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="15" unique_id=1365797223]
+position = Vector2(6081, 2467.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_25" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="18" unique_id=627094669]
+position = Vector2(3277, 1803)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_26" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="19" unique_id=30822473]
+position = Vector2(4051, 2450)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_27" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="20" unique_id=280941786]
+position = Vector2(4172, 2074)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_28" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="21" unique_id=131539030]
+position = Vector2(4419, 1224)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_29" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="22" unique_id=509250810]
+position = Vector2(3414, 1737)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_30" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="23" unique_id=1450736907]
+position = Vector2(1212, 2079)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_31" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="24" unique_id=2140259870]
+position = Vector2(878.00006, 2256.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_32" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="25" unique_id=1863032528]
+position = Vector2(519, 2445.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_33" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="26" unique_id=1184321465]
+position = Vector2(1291, 3051.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_34" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="27" unique_id=260766976]
+position = Vector2(528, 2690)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_35" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="28" unique_id=436298370]
+position = Vector2(283, 2576.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_36" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="29" unique_id=2122355263]
+position = Vector2(898, 2876.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_37" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="30" unique_id=1198532443]
+position = Vector2(1652, 3222)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_38" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="31" unique_id=1190967838]
+position = Vector2(2055, 3442)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_39" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="32" unique_id=1838376485]
+position = Vector2(2844, 3844)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_40" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="33" unique_id=326051440]
+position = Vector2(2453, 3673)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_41" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="34" unique_id=361131759]
+position = Vector2(5656, 300)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_42" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="35" unique_id=246577554]
+position = Vector2(4366, 3790)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_43" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="36" unique_id=1927857064]
+position = Vector2(9720, 1787)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_44" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="37" unique_id=398718628]
+position = Vector2(8859, 1325)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_45" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="38" unique_id=1868964508]
+position = Vector2(9031, 3236)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_46" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="39" unique_id=389473284]
+position = Vector2(1566, 1936)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_47" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="40" unique_id=277157106]
+position = Vector2(1927, 1722)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_48" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="41" unique_id=1608097708]
+position = Vector2(2320, 1535)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_49" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="42" unique_id=754138647]
+position = Vector2(3032, 1180)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_50" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="43" unique_id=1622693445]
+position = Vector2(3162, 2662)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_51" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="44" unique_id=1983067418]
+position = Vector2(3404, 987)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_52" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="45" unique_id=664121718]
+position = Vector2(2702, 1345)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="grm_jagode5" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="53" unique_id=1733768327]
+position = Vector2(3721, 2044)
+
+[node name="grm_jagode10" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="58" unique_id=783341774]
+position = Vector2(10489, 4027)
+
+[node name="skale4" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="60" unique_id=1331670145]
+position = Vector2(10209, 2549)
+
+[node name="skale8" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="75" unique_id=1520134376]
+position = Vector2(5649, 1336)
+
+[node name="skale9" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="76" unique_id=1719179252]
+position = Vector2(6538, 696)
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_53" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="81" unique_id=589639166]
+position = Vector2(3789, 812)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_54" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="82" unique_id=180398460]
+position = Vector2(4091, 635)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_55" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="83" unique_id=1508278072]
+position = Vector2(4447, 454)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_56" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="84" unique_id=1134954847]
+position = Vector2(4818, 272)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_57" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="85" unique_id=174114009]
+position = Vector2(5467, 1301)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_58" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="86" unique_id=1858162621]
+position = Vector2(5995, 969)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_59" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="87" unique_id=1867889855]
+position = Vector2(5219, 90.00012)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_60" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="88" unique_id=1853952889]
+position = Vector2(5611, -113)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_61" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="89" unique_id=291166681]
+position = Vector2(6015, -297.99994)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_62" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="90" unique_id=1628458066]
+position = Vector2(6403, -496)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_63" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="91" unique_id=767980299]
+position = Vector2(7157, -131.99994)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_64" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="92" unique_id=1440220922]
+position = Vector2(9466, 1010)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_65" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="93" unique_id=836164808]
+position = Vector2(5384, 858)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_66" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="94" unique_id=814319048]
+position = Vector2(9101, 813)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_67" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="95" unique_id=74559828]
+position = Vector2(6779.0005, 542)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_68" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="96" unique_id=125308795]
+position = Vector2(7457, 572)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_69" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="97" unique_id=91117214]
+position = Vector2(4771, 2031)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_70" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="98" unique_id=1408059246]
+position = Vector2(3491, 3326)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_71" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="99" unique_id=1437359253]
+position = Vector2(6626, 1243)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_72" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="100" unique_id=1900275994]
+position = Vector2(4456, 4667)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_73" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="101" unique_id=1507163702]
+position = Vector2(4885, 4864)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_74" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="102" unique_id=1247966204]
+position = Vector2(4021.0002, 4437)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_75" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="103" unique_id=500759260]
+position = Vector2(8051, 1028)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_76" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="104" unique_id=2092160003]
+position = Vector2(4597, 2555)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_77" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="105" unique_id=1053504118]
+position = Vector2(4927, 3063)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_78" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="106" unique_id=1287918978]
+position = Vector2(4945, 1156.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_79" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="107" unique_id=1110646348]
+position = Vector2(5376, 2509)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_80" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="108" unique_id=524227278]
+position = Vector2(5193, 3391)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_81" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="109" unique_id=877421200]
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_82" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="110" unique_id=1325208796]
+position = Vector2(5533, 3056)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_83" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="111" unique_id=663856151]
+position = Vector2(4211, 3135)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_84" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="112" unique_id=1620617917]
+position = Vector2(9364, 2237)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_85" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="113" unique_id=620317159]
+position = Vector2(8421, 1181)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_86" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="114" unique_id=915366257]
+position = Vector2(10113, 3779)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_87" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="115" unique_id=1346137427]
+position = Vector2(10795, 3443)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_88" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="116" unique_id=204681945]
+position = Vector2(10453, 3627)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_89" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="117" unique_id=1017329839]
+position = Vector2(10055, 2279)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_90" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="118" unique_id=2066355048]
+position = Vector2(10831, 1712)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_91" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="119" unique_id=1660423444]
+position = Vector2(11163.001, 1863)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_92" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="120" unique_id=2106218538]
+position = Vector2(11513, 2047)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_93" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="121" unique_id=966827425]
+position = Vector2(11819, 2197)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_94" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="122" unique_id=1023837971]
+position = Vector2(12168, 2389)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_95" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="123" unique_id=2113299520]
+position = Vector2(12503.001, 2562.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_96" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="124" unique_id=1809926126]
+position = Vector2(12181, 2711)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_97" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="125" unique_id=16035529]
+position = Vector2(11824, 2876.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_98" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="126" unique_id=131549853]
+position = Vector2(11476, 3086)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_99" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="127" unique_id=675284686]
+position = Vector2(11111, 3268)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_100" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="128" unique_id=1812320351]
+position = Vector2(9774, 3945)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_101" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="129" unique_id=1673840394]
+position = Vector2(9475, 4081)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_102" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="130" unique_id=1818548198]
+position = Vector2(9096, 4271)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_103" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="131" unique_id=1699594403]
+position = Vector2(7938, 830)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_104" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="132" unique_id=717469362]
+position = Vector2(8189, 3179)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_105" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="133" unique_id=1788616332]
+position = Vector2(8613, 4547)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_106" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="134" unique_id=966254564]
+position = Vector2(8251, 4687)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_107" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="135" unique_id=872025832]
+position = Vector2(7532, 5059)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_108" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="136" unique_id=1310334436]
+position = Vector2(7167, 5265)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_109" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="137" unique_id=935429524]
+position = Vector2(6810, 5448)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_110" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="138" unique_id=1727541353]
+position = Vector2(8514, 3805)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_111" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="139" unique_id=1485920518]
+position = Vector2(5839, 2844.0005)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_112" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="140" unique_id=1484959433]
+position = Vector2(6074, 5442)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_113" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="141" unique_id=1245453211]
+position = Vector2(7055, 3781)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_114" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="142" unique_id=767388785]
+position = Vector2(5611.0005, 3514)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_115" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="143" unique_id=1959649182]
+position = Vector2(7335, 3970)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_116" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="144" unique_id=1587461057]
+position = Vector2(6673, 4195)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_117" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="145" unique_id=2135860922]
+position = Vector2(8436, 2001.0005)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_118" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="146" unique_id=1239305480]
+position = Vector2(6894, 4594)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_119" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="147" unique_id=1918139948]
+position = Vector2(7875, 4899)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_120" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="148" unique_id=1171956084]
+position = Vector2(7599, 3551)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_121" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="149" unique_id=13520378]
+position = Vector2(7848, 3837)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_122" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="150" unique_id=277506598]
+position = Vector2(8743, 665)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_123" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="151" unique_id=1182142867]
+position = Vector2(6260, 1239)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_124" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="152" unique_id=293011143]
+position = Vector2(6122, 519.0001)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_125" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="153" unique_id=122718254]
+position = Vector2(3202, 4044)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_126" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="154" unique_id=255732055]
+position = Vector2(3248.0002, 3133)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_127" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="155" unique_id=1536098574]
+position = Vector2(3600.0002, 4219)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_128" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="156" unique_id=353728759]
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_129" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="157" unique_id=179944576]
+position = Vector2(5290, 3595)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_130" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="158" unique_id=1758154087]
+position = Vector2(7363, 4288)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_131" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="159" unique_id=1558120174]
+position = Vector2(6230, 4683)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_132" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="160" unique_id=1010533225]
+position = Vector2(3844, 3458)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_133" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="161" unique_id=1122326697]
+position = Vector2(5291, 5068)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_134" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="162" unique_id=2117565221]
+position = Vector2(5659, 5238)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_135" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="163" unique_id=2099835397]
+position = Vector2(6413, 5621)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_136" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="164" unique_id=1869886147]
+position = Vector2(6425, 4432)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_137" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="165" unique_id=327976849]
+position = Vector2(3804, 2764)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_138" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="166" unique_id=1072837295]
+position = Vector2(6278, -81)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_139" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="167" unique_id=1461279527]
+position = Vector2(10479, 1523)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_140" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="168" unique_id=817649522]
+position = Vector2(10149, 1339)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_141" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="169" unique_id=216478675]
+position = Vector2(9819.001, 1155)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_142" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="170" unique_id=1794571877]
+position = Vector2(7560.0005, 84)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_143" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="171" unique_id=1736398615]
+position = Vector2(8360, 460)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_144" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="172" unique_id=1191927230]
+position = Vector2(8000.0005, 275)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_145" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="173" unique_id=1521177894]
+position = Vector2(6802.0005, -309)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_146" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="174" unique_id=1426181833]
+position = Vector2(9225, 1763.0002)
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_147" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="175" unique_id=2077167253]
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_148" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="176" unique_id=1646996911]
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")
+
+[node name="ChatGPT Image 12_ avg_ 2026, 15_51_149" parent="Objekti" parent_id_path=PackedInt32Array(67814474) index="177" unique_id=412836051]
+scale = Vector2(3, 3)
+texture = ExtResource("2_kkxi1")

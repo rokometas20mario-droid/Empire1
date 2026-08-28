@@ -1,0 +1,30 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://zgradba.gd" id="1_zgr"]
+[ext_resource type="Texture2D" path="res://sprite_vrata_jug_v2.png" id="2_vrtsprite"]
+[ext_resource type="Texture2D" path="res://sprite_vrata_sever_v2.png" id="3_vrtsever"]
+[ext_resource type="Texture2D" path="res://sprite_vrata_vzhod_v2.png" id="4_vrtvzhod"]
+[ext_resource type="Texture2D" path="res://sprite_vrata_zahod_v2.png" id="5_vrtzahod"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vrt"]
+size = Vector2(286, 28)
+
+[node name="Vrata" type="StaticBody2D"]
+script = ExtResource("1_zgr")
+collision_layer = 32
+collision_mask = 0
+max_hp = 100
+tip_zgradbe = "vrata"
+potrebuje_gradnjo = false
+cas_gradnje = 8.0
+tekstura_jug = ExtResource("2_vrtsprite")
+tekstura_sever = ExtResource("3_vrtsever")
+tekstura_vzhod = ExtResource("4_vrtvzhod")
+tekstura_zahod = ExtResource("5_vrtzahod")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -59)
+texture = ExtResource("2_vrtsprite")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_vrt")

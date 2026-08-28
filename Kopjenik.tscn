@@ -1,0 +1,43 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://enota.gd" id="1_kop"]
+[ext_resource type="Texture2D" path="res://light_circle.png" id="2_light"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kop"]
+radius = 9.0
+
+[node name="Kopjenik" type="CharacterBody2D"]
+script = ExtResource("1_kop")
+collision_layer = 4
+collision_mask = 5
+enota_ime = "Sekiraš"
+max_hp = 70
+damage = 13
+attack_range = 44.0
+speed = 130.0
+populacija_cena = 2
+tip_animacije = "sekiras"
+
+[node name="VisionLight" type="PointLight2D" parent="."]
+texture = ExtResource("2_light")
+texture_scale = 1.4
+energy = 1.2
+
+[node name="Oznaka" type="Polygon2D" parent="."]
+visible = false
+z_index = 0
+position = Vector2(0, 6)
+color = Color(0.2, 1, 0.2, 0.38)
+polygon = PackedVector2Array(-22, 0, -16, -7, 0, -10, 16, -7, 22, 0, 16, 7, 0, 10, -16, 7)
+
+[node name="Senca" type="Polygon2D" parent="."]
+z_index = 1
+position = Vector2(0, 5)
+color = Color(0, 0, 0, 0.22)
+polygon = PackedVector2Array(-17, 0, -12, -4, 0, -6, 12, -4, 17, 0, 12, 4, 0, 6, -12, 4)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 10
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_kop")

@@ -1,0 +1,41 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://vojasnica.gd" id="1_voj"]
+[ext_resource type="Texture2D" path="res://light_circle.png" id="2_light"]
+[ext_resource type="Texture2D" path="res://assets/nadgradnje/vojasnica_nivo1_jug.png" id="3_vojsprite"]
+[ext_resource type="Texture2D" path="res://assets/nadgradnje/vojasnica_nivo1_sever.png" id="4_vojsever"]
+[ext_resource type="Texture2D" path="res://assets/nadgradnje/vojasnica_nivo2_jug.png" id="5_vojn2j"]
+[ext_resource type="Texture2D" path="res://assets/nadgradnje/vojasnica_nivo2_sever.png" id="6_vojn2s"]
+[ext_resource type="Texture2D" path="res://assets/nadgradnje/vojasnica_nivo3_jug.png" id="7_vojn3j"]
+[ext_resource type="Texture2D" path="res://assets/nadgradnje/vojasnica_nivo3_sever.png" id="8_vojn3s"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ovira_voj"]
+radius = 90.0
+
+[node name="Vojasnica" type="Node2D"]
+script = ExtResource("1_voj")
+max_hp = 250
+tip_zgradbe = "vojasnica"
+cas_gradnje = 25.0
+tekstura_jug = ExtResource("3_vojsprite")
+tekstura_sever = ExtResource("4_vojsever")
+tekstura_nivo2_jug = ExtResource("5_vojn2j")
+tekstura_nivo2_sever = ExtResource("6_vojn2s")
+tekstura_nivo3_jug = ExtResource("7_vojn3j")
+tekstura_nivo3_sever = ExtResource("8_vojn3s")
+
+[node name="VisionLight" type="PointLight2D" parent="."]
+texture = ExtResource("2_light")
+texture_scale = 1.6
+energy = 1.2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -9)
+texture = ExtResource("3_vojsprite")
+
+[node name="Ovira" type="StaticBody2D" parent="."]
+collision_layer = 1
+collision_mask = 0
+
+[node name="OviraShape" type="CollisionShape2D" parent="Ovira"]
+shape = SubResource("CircleShape2D_ovira_voj")
